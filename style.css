@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    margin-block-end: 0;
+}
+
+h5 {
+    padding-top: 10px;
+}
+
+header {
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.text_title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the tick boxes */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    border: 2px solid #666;
+    margin-right: 10px;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background: #4CAF50;
+}
+
+.sub_policy {
+    padding-left: 30px;
+}
+
+input[type='text'] {
+    width: 100%;
+}
+
+
+/* Output box styles */
+
+
+#output-field {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+#copy-btn {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#copy-btn:hover {
+    background-color: #45a049;
+}

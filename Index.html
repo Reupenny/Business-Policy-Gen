@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Privacy Policy Generater</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1> Privacy Policy Generator</h1>
+    <h5>Please note that ther policys generated should be redthrough thorualy and altered when necicary to better
+      reflect your business.</h5>
+  </header>
+  <form>
+    <label class="text_title" for="business-name">Business Name:</label>
+    <input type="text" id="business-name" name="business-name"><br>
+    <label class="text_title" for="business-email">Business Email:</label>
+    <input type="text" id="business-email" name="business-email"><br>
+    <label class="text_title" for="business-website">Business Website:</label>
+    <input type="text" id="business-website" name="business-website"><br>
+    <label class="text_title">Select the pollicies you would like to include:</label><br>
+    <input type="checkbox" id="copyright" name="copyright" value="copyright">
+    <label for="copyright">Copyright</label>
+    <div class="sub_policy">
+      <input type="checkbox" id="images" name="images" value="images">
+      <label for="images">Images</label>
+    </div>
+    <div class="sub_policy">
+      <input type="checkbox" id="indemnification" name="indemnification" value="indemnification">
+      <label for="indemnification">Indemnification</label>
+    </div>
+    <input type="checkbox" name="payments" value="payments"> Payments<br>
+    <input type="checkbox" name="credit" value="credit"> Credit & Portfolio<br>
+    <input type="checkbox" name="no-communication" value="no-communication"> No Communication<br>
+    <input type="checkbox" name="privacy" value="privacy"> Privacy<br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="output-field">
+    <button id="copy-btn">Copy</button>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
